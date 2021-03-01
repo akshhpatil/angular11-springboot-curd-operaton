@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Crud-Operation';
+  title = 'Crud operation in Angular 11 + spring boot';
+  title_two= 'Student Registration'
 }
