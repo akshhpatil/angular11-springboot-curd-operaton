@@ -1,0 +1,28 @@
+<table class="table table-line">
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Branch</th>
+      <th>Address</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let student of student | async">
+      <td>{{student.id}}</td>
+      <td>{{student.name}}</td>
+      <td>{{student.email}}</td>
+      <td>{{student.phone}}</td>
+      <td>{{student.branch}}</td>
+      <td>{{student.address}}</td>
+      <td><button (click)="deleteStudent(student.id)" class="btn btn-danger">Delete</button>
+        <button (click)="updateStudent(student.id)" class="btn btn-primary" style="margin-left: 10px">Update</button>
+
+
+      </td>
+    </tr>
+  </tbody>
+</table>
