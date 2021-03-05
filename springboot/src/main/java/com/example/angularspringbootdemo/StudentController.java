@@ -42,7 +42,7 @@ public class StudentController {
        }
        
        @PostMapping(value = "/stud")
- 	   public ResponseEntity<Student> postCustomer(@RequestBody Student student) {
+ 	   public ResponseEntity<Student> postStudent(@RequestBody Student student) {
  	    try {
  	      Student _student = studRepo.save(new Student( 0, 
  	    		  student.getName(),
