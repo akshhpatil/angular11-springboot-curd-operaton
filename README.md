@@ -1,4 +1,4 @@
-Sample crud operation in angular 11 + spring boot 
+Sample crud operation in angular 11 + spring boot .
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
 
